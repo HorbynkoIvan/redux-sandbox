@@ -44,10 +44,7 @@ const mapDispatchToProps = (dispatch) => {
     return {
         dec,
         inc,
-        rnd: () => {
-            const random = Math.floor(Math.random() * 10);
-            rnd(random);
-        },
+        rnd,
         clr,
     }
 }
